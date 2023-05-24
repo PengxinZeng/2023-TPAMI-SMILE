@@ -7,7 +7,7 @@
 
 TPAMI 2023
   
-[[Paper]]()                [[Discussion]](https://github.com/PengxinZeng/2023-TPAMI-SMILE/issues)  [[More Information]](https://github.com/PengxinZeng?tab=repositories)
+[[Paper]](https://arxiv.org/abs/2305.12743)                [[Discussion]](https://github.com/PengxinZeng/2023-TPAMI-SMILE/issues)  [[More Information]](https://github.com/PengxinZeng?tab=repositories)
 </div>
 
 Upcoming.
