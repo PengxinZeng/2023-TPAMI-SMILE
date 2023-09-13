@@ -57,7 +57,7 @@ python main.py --dataset AWA-7view-10158sample --seed 9116
 ```
 
 ## Model Zoo
-The pre-trained models are available [here](https://drive.google.com/drive/folders/1M1XM5-ceeW6paYf4WaPFwfbcs_6wOg8_?usp=sharing).
+The pre-trained models are available [here](https://drive.google.com/drive/folders/1M1XM5-ceeW6paYf4WaPFwfbcs_6wOg8_?usp=sharing). 
 
 
 Download the models, then:
