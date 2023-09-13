@@ -57,15 +57,8 @@ python main.py --dataset AWA-7view-10158sample --seed 9116
 ```
 
 ## Model Zoo
-The pre-trained models are available here:
-| Dataset | Model | Results |
-|--|--|--|
-| NoisyMNIST | [Model](https://drive.google.com/drive/folders/1pfw4YCGkYP1XupGw-GNBip_dNaqBCODl?usp=share_link) | [Results](https://github.com/PengxinZeng/2023-CVPR-FCMI/blob/main/TrainRevMnist.txt) |
-| MNISTUSPS | [Model](https://drive.google.com/drive/folders/1pfw4YCGkYP1XupGw-GNBip_dNaqBCODl?usp=share_link) | [Results](https://github.com/PengxinZeng/2023-CVPR-FCMI/blob/main/TrainOffice.txt) |
-| Caltech | [Model](https://drive.google.com/drive/folders/1pfw4YCGkYP1XupGw-GNBip_dNaqBCODl?usp=share_link) | [Results](https://github.com/PengxinZeng/2023-CVPR-FCMI/blob/main/TrainMTFL.txt) |
-| CUB | [Model](https://drive.google.com/drive/folders/1pfw4YCGkYP1XupGw-GNBip_dNaqBCODl?usp=share_link) | [Results](https://github.com/PengxinZeng/2023-CVPR-FCMI/blob/main/TrainHAR.txt) |
-| YouTubeFaces | [Model](https://drive.google.com/drive/folders/1pfw4YCGkYP1XupGw-GNBip_dNaqBCODl?usp=share_link) | [Results](https://github.com/PengxinZeng/2023-CVPR-FCMI/blob/main/TrainHAR.txt) |
-| ANIMAL | [Model](https://drive.google.com/drive/folders/1pfw4YCGkYP1XupGw-GNBip_dNaqBCODl?usp=share_link) | [Results](https://github.com/PengxinZeng/2023-CVPR-FCMI/blob/main/TrainHAR.txt) |
+The pre-trained models are available [here](https://drive.google.com/drive/folders/1M1XM5-ceeW6paYf4WaPFwfbcs_6wOg8_?usp=sharing).
+
 
 Download the models, then:
 ```
