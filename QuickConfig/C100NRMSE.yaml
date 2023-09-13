@@ -1,0 +1,8 @@
+'complete_prop': 0
+'aligned_prop': 0.0
+'VisualFreq': 1
+'EvalMulti': 0
+'train_epoch': 90
+'GroupWiseLayer': '111111'
+'LearnRate': 0.0001
+'resume': 'D:/VirtualMachine/Codes/230318/IMvC_RunSet0409_2/ --InfoBalanceLoss 0.4 --InfoFairLoss 2.0 --OneHot 0.4 --QuickConfig C100NRMSE --dataset 2view-caltech101-8677sample --seed 2022/Checkpoints/Epoch050.checkpoint'

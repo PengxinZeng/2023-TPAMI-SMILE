@@ -1,0 +1,16 @@
+Data Type & Method & ACC & NMI & ARI \\ \midrule
+\multirow{3}{*}{$50\%$ Unaligned} 
+& MvCLN~\cite{yang2021partially}& 54.0          & \underline{69.2} & \underline{44.2} \\
+ & SURE~\cite{yang2022robust}   & \underline{54.7} & 68.8          & 43.4          \\
+ & SMAIL                        & \textbf{57.8} & \textbf{77.1} & \textbf{48.8} \\ \midrule
+\multirow{3}{*}{$50\%$ Missing} 
+& DCP~\cite{lin2022dual} & 26.3          & \underline{47.2} & 14.4          \\
+ & SURE~\cite{yang2022robust} & \underline{45.2} & 46.9          & \underline{29.6} \\
+ & SMAIL  & \textbf{54.6} & \textbf{76.3} & \textbf{45.2} \\ \midrule
+\multirow{4}{*}{Complete Information} 
+ & DCP~\cite{lin2022dual} & 34.0          & 60.2          & 16.5          \\
+ & MvCLN~\cite{yang2021partially} & \underline{57.3} & 70.9          & \underline{48.2} \\
+ & SURE~\cite{yang2022robust} & 55.6          & \underline{75.8} & 46.8          \\
+ & SMAIL & \textbf{58.5} & \textbf{78.4} & \textbf{50.2}
+ \bottomrule
+

@@ -1,0 +1,11 @@
+'EvalMulti': 1
+'EvalMean': 1
+#'EvalOriMean': 1
+#'EvalOriScoreMean': 1
+#'EvalOriPredMean': 1
+
+#'EvalSingel0': 0
+#'EvalSingel1': 0
+
+'CodeTest': True
+#'reAlign': KnnMean
