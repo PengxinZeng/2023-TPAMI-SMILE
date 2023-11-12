@@ -133,12 +133,7 @@ def load_data(args, neg_prop, aligned_prop, complete_prop, is_noise):
         data = [mat['X1'], mat['X2']]
         label = np.squeeze(mat['Y'])
 
-    # deep features of Animal
-    elif dataset == 'AWA-7view-10158sample':
-        data = []
-        label = np.squeeze(mat['gt']) - 1
-        data.append(mat['X'][0][5].T)
-        data.append(mat['X'][0][6].T)
+   
     elif dataset == 'cub_googlenet_doc2vec_c10':
         data = []
         label = np.squeeze(mat['gt']) - 1
