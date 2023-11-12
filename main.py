@@ -94,9 +94,10 @@ if __name__ == "__main__":
     parser.add_argument("--loss_sim_contras_gau", help="", default=0.0, type=float)  # 0.0
     parser.add_argument("--loss_sim_distrib", help="", default=0.0, type=float)
     # # MC
-    parser.add_argument('--aligned_prop', type=float, default=1.00)  # X A S: ap (1-ap)*ac (1-ap)*(1-ac)
-    parser.add_argument('--complete_prop', type=float, default=1.00)
-
+    parser.add_argument('--aligned_prop', type=float, default=1.00, help='1-unaligned rate in our paper')  
+    parser.add_argument('--complete_prop', type=float, default=1.00, help='1-missing rate in our paper') 
+    # if aligned_prop<1 and complete_prop <1: the exact proportion of complete, unaligned, and missing samples are aligned_prop, (1-aligned_prop)*complete_prop, and (1-aligned_prop)*(1-complete_prop), respectively.
+    
     # Evaluate
     parser.add_argument("--VisualFreq", help="", default=10, type=int)
     parser.add_argument("--VisualRandom", help="", default=0, type=int)
