@@ -38,19 +38,19 @@ conda install -c pytorch faiss-gpu
 Modify the ```./Utils/PathPresettingOperator.get_dataset_path```, then train the model(s):
 ```train
 # NoisyMNIST 
-python main.py --dataset NoisyMNIST30000 --seed 9116  
+python main.py --dataset NoisyMNIST30000 --seed 9116  --aligned_prop 1 --complete_prop 1
   
 # MNISTUSPS 
-python main.py --dataset MNISTUSPS --seed 9116
+python main.py --dataset MNISTUSPS --seed 9116  --aligned_prop 1 --complete_prop 1
   
 # Caltech     
-python main.py --dataset 2view-caltech101-8677sample --seed 9116  
+python main.py --dataset 2view-caltech101-8677sample --seed 9116    --aligned_prop 1 --complete_prop 1
   
 # CUB 
-python main.py --dataset cub_googlenet_doc2vec_c10 --seed 9116  
+python main.py --dataset cub_googlenet_doc2vec_c10 --seed 9116    --aligned_prop 1 --complete_prop 1
 
 # YouTubeFaces    
-python main.py --dataset YouTubeFaces --seed 9116
+python main.py --dataset YouTubeFaces --seed 9116  --aligned_prop 1 --complete_prop 1
 ```
 
 ## Model Zoo
