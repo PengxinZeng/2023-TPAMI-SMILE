@@ -51,9 +51,6 @@ python main.py --dataset cub_googlenet_doc2vec_c10 --seed 9116
 
 # YouTubeFaces    
 python main.py --dataset YouTubeFaces --seed 9116
-
-# ANIMAL    
-python main.py --dataset AWA-7view-10158sample --seed 9116  
 ```
 
 ## Model Zoo
