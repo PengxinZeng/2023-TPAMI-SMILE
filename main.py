@@ -14,8 +14,8 @@ os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":16:8"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     # data
-    parser.add_argument("--dataset", default='AWA-7view-10158sample')
-    # 'MNISTUSPS', 'NoisyMNIST30000', '2view-caltech101-8677sample', 'AWA-7view-10158sample', 'cub_googlenet_doc2vec_c10'
+    parser.add_argument("--dataset", default='NoisyMNIST30000')
+    # 'MNISTUSPS', 'NoisyMNIST30000', '2view-caltech101-8677sample', 'cub_googlenet_doc2vec_c10'
     # 'NoisyMNIST',
     #  'Caltech101-all', 'Caltech101-20',
     # 'Reuters_dim10', 'Scene15',
